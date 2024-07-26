@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api-gatway" />
+        <module name="discovery-server" />
+        <module name="contrat" />
+        <module name="contrat (1)" />
+        <module name="utilisateur" />
+        <module name="assure" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-gatway" options="-parameters" />
+      <module name="assure" options="-parameters" />
+      <module name="contrat" options="-parameters" />
+      <module name="contrat (1)" options="-parameters" />
+      <module name="discovery-server" options="-parameters" />
+      <module name="utilisateur" options="-parameters" />
+    </option>
+  </component>
+</project>
